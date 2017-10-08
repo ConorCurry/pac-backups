@@ -7,15 +7,15 @@ Should be able to just install the core packages,
 then check the installed dependencies against the
 relevant file in this repository.
 
-### pac-explicit.pkg
+### pac-explicit.pkg -- generated with ```pacman -Qqe```
 
 This contains all explicitly installed packages, from pacman repos. Install first.
 
-### pac-foreign.pkg
+### pac-foreign.pkg -- generated with ```pacman -Qqm```
 
 This contains AUR packages. Install these with pacaur, second.
 
-### pac-asdeps.pkg
+### pac-asdeps.pkg -- generated with ```pacman -Qqd```
 
 Most of these should be installed as automatic depedencies of explicitly installed packages,
 though might contain additional packages that were installed as optional dependencies.
